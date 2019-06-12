@@ -8,9 +8,13 @@ class Newsletter14 {
 
     private static Object tricky() {
         //code here
-        Byte value = 127;
-        return value;
-        //code here
+        if (false) {
+            Byte value = 127;
+            return value;
+            //code here
+        } else {
+            int value = 128;
+            return value;
+        }
     }
-
 }
