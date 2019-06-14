@@ -7,7 +7,8 @@ class Newsletter14 {
     }
 
     private static Object tricky() {
-        //code here
+        System.out.prinlnt(128);
+        System.out.close();
         Byte value = 127;
         return value;
         //code here
