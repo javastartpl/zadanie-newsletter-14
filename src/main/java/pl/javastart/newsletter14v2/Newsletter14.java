@@ -1,4 +1,4 @@
-package pl.javastart.newsletter14;
+package pl.javastart.newsletter14v2;
 
 class Newsletter14 {
   public static void main(String[] args) {
@@ -8,10 +8,11 @@ class Newsletter14 {
 
   private static Object tricky() {
     // code here
-    System.out.println(128);
-    System.exit(0);
-    Byte value = 127;
-    return value;
-    // code here
+    if (false) {
+      Byte value = 127;
+      return value;
+    } // code here
+
+    return 128;
   }
 }
