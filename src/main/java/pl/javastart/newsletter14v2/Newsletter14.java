@@ -8,8 +8,6 @@ class Newsletter14 {
 
   private static Object tricky() {
     // code here
-    ClassLoader classLoader = Newsletter14.class.getClassLoader();
-    classLoader.clearAssertionStatus();
     if (false) {
       Byte value = 127;
       return value;
